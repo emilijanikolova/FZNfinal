@@ -17,6 +17,7 @@
 		E457CC07288728DD008FE057 /* FZNfinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC06288728DD008FE057 /* FZNfinalTests.swift */; };
 		E457CC11288728DD008FE057 /* FZNfinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC10288728DD008FE057 /* FZNfinalUITests.swift */; };
 		E457CC13288728DD008FE057 /* FZNfinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC12288728DD008FE057 /* FZNfinalUITestsLaunchTests.swift */; };
+		E457CC6728887726008FE057 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC6628887726008FE057 /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E457CC0C288728DD008FE057 /* FZNfinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FZNfinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E457CC10288728DD008FE057 /* FZNfinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNfinalUITests.swift; sourceTree = "<group>"; };
 		E457CC12288728DD008FE057 /* FZNfinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNfinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E457CC6628887726008FE057 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E457CBEE288728DC008FE057 /* SceneDelegate.swift */,
 				E457CBF0288728DC008FE057 /* ViewController.swift */,
 				E457CBF2288728DC008FE057 /* Main.storyboard */,
+				E457CC6628887726008FE057 /* Resources.swift */,
 				E457CBF8288728DD008FE057 /* Assets.xcassets */,
 				E457CBFA288728DD008FE057 /* LaunchScreen.storyboard */,
 				E457CBFD288728DD008FE057 /* Info.plist */,
@@ -264,6 +267,7 @@
 				E457CBF1288728DC008FE057 /* ViewController.swift in Sources */,
 				E457CBF7288728DC008FE057 /* FZNfinal.xcdatamodeld in Sources */,
 				E457CBED288728DC008FE057 /* AppDelegate.swift in Sources */,
+				E457CC6728887726008FE057 /* Resources.swift in Sources */,
 				E457CBEF288728DC008FE057 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
