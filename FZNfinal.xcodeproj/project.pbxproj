@@ -18,6 +18,7 @@
 		E457CC11288728DD008FE057 /* FZNfinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC10288728DD008FE057 /* FZNfinalUITests.swift */; };
 		E457CC13288728DD008FE057 /* FZNfinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC12288728DD008FE057 /* FZNfinalUITestsLaunchTests.swift */; };
 		E457CC6728887726008FE057 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC6628887726008FE057 /* Resources.swift */; };
+		E457CC692889C0D9008FE057 /* MyImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457CC682889C0D9008FE057 /* MyImpactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		E457CC10288728DD008FE057 /* FZNfinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNfinalUITests.swift; sourceTree = "<group>"; };
 		E457CC12288728DD008FE057 /* FZNfinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZNfinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E457CC6628887726008FE057 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		E457CC682889C0D9008FE057 /* MyImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImpactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				E457CBEE288728DC008FE057 /* SceneDelegate.swift */,
 				E457CBF0288728DC008FE057 /* ViewController.swift */,
 				E457CBF2288728DC008FE057 /* Main.storyboard */,
+				E457CC682889C0D9008FE057 /* MyImpactViewController.swift */,
 				E457CC6628887726008FE057 /* Resources.swift */,
 				E457CBF8288728DD008FE057 /* Assets.xcassets */,
 				E457CBFA288728DD008FE057 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			files = (
 				E457CBF1288728DC008FE057 /* ViewController.swift in Sources */,
 				E457CBF7288728DC008FE057 /* FZNfinal.xcdatamodeld in Sources */,
+				E457CC692889C0D9008FE057 /* MyImpactViewController.swift in Sources */,
 				E457CBED288728DC008FE057 /* AppDelegate.swift in Sources */,
 				E457CC6728887726008FE057 /* Resources.swift in Sources */,
 				E457CBEF288728DC008FE057 /* SceneDelegate.swift in Sources */,
