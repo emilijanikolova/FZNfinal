@@ -35,13 +35,13 @@ class MyImpactViewController: UIViewController {
     }
     
     
-  
- @IBOutlet weak var SheinTapped: UIButton!
+    @IBOutlet weak var SheinTapped: UIButton!
     
-   @IBAction func Shein(_ sender: UIButton) {
-     SheinTapped.backgroundColor = UIColor.darkGray
-   }
+    @IBAction func Shein(_ sender: UIButton) {
+        SheinTapped.backgroundColor = UIColor.darkGray
+    }
     
+
     
 
     /*
