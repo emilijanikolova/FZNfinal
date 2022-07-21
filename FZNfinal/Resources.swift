@@ -32,7 +32,7 @@ class Resources: UIViewController {
     
     
     @IBAction func Europebutton(_ sender: Any) {
-        Europeclear.text = "Small businesses in Europe: ..."
+        Europeclear.text = " -Humana Second  Hand                   -Mädchenflohmarkt            -thriftiees-fashion            -stillthrifring       -vintage-rags     "
     }
     
     @IBOutlet weak var Europeclear: UILabel!
