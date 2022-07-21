@@ -23,14 +23,25 @@ class MyImpactViewController: UIViewController {
     
     @IBAction func Zara(_ sender: UIButton) {
         //change background color
-        ZaraTapped.backgroundColor = UIColor.gray
+        ZaraTapped.backgroundColor = UIColor.darkGray
     }
+    
+    
+    @IBOutlet weak var HMTapped: UIButton!
     
     @IBAction func HM(_ sender: UIButton) {
+        HMTapped.backgroundColor = UIColor.darkGray
+        
     }
     
-    @IBAction func Shein(_ sender: UIButton) {
-    }
+    
+  
+ @IBOutlet weak var SheinTapped: UIButton!
+    
+   @IBAction func Shein(_ sender: UIButton) {
+     SheinTapped.backgroundColor = UIColor.darkGray
+   }
+    
     
 
     /*
