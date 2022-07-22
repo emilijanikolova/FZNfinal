@@ -25,23 +25,47 @@ class Resources: UIViewController {
     
     @IBAction func USbutton(_ sender: UIButton) {
         
-        USclear.text = "Small businesses in the US: ..."
+        USclear.text = "Depop"
+        USclear2.text = "Urban Renewal"
+        USclear3.text = "tradesy"
+        USclear4.text = "Goodfair"
+        USclear5.text = "Swap"
     }
     
     @IBOutlet weak var USclear: UILabel!
     
+    @IBOutlet weak var USclear2: UILabel!
+    
+    @IBOutlet weak var USclear3: UILabel!
+    
+    @IBOutlet weak var USclear4: UILabel!
+    
+    @IBOutlet weak var USclear5: UILabel!
+    
     
     @IBAction func Europebutton(_ sender: Any) {
-        Europeclear.text = " -Humana Second  Hand                   -Mädchenflohmarkt            -thriftiees-fashion            -stillthrifring       -vintage-rags     "
+        
+        EuropeClearOne.text = "Humana"
+        EuropeClear2.text = "Mädchenflohmarkt"
+        Europeclear3.text = "Still thrifting"
+        Europeclear4.text = "Vintage-rags"
+        Europeclear5.text = "Thriftees-fashion"
+        
     }
     
-    @IBOutlet weak var Europeclear: UILabel!
-    
-    
-    
-    
-    
 
+ 
+    @IBOutlet weak var EuropeClearOne: UILabel!
+    
+    @IBOutlet weak var EuropeClear2: UILabel!
+    
+    
+    @IBOutlet weak var Europeclear3: UILabel!
+    
+    @IBOutlet weak var Europeclear4: UILabel!
+    
+    @IBOutlet weak var Europeclear5: UILabel!
+    
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
